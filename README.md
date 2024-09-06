@@ -36,7 +36,7 @@ Com foco na exploração criativa e analítica de letras de músicas, este toolk
 
 A equipe utilizou a linguagem **Python** com o framework **LangChain** junto de modelos da **Groq* e *OpenAI** para o desenvolvimento do projeto. O modelo _*llama-3.1-70b-versatil*_ da Groq foi utilizado para quase todas as ferramentas com exceção para a ferramenta de geração de arte para capa de álbum inspirada na letra da música, na qual foi utilizado o modelo dall-e-3 da OpenaAI.
 
-Para obtenção das letras das músicas a partir do nome da música e cantor(a)/banda foi utilizada a API lyrics.ovh, cuja documentação pode ser acessada [aqui](lyricsovh.docs.apiary.io)!
+Para obtenção das letras das músicas a partir do nome da música e cantor(a)/banda foi utilizada a API lyrics.ovh, cuja documentação pode ser acessada [aqui](https://lyricsovh.docs.apiary.io/#reference)!
 
 ## _Código_
 
