@@ -61,8 +61,9 @@ Para demonstrar um exemplo de resultado, segue as saídas obtidas para a música
 - **Identificação do gênero:**
   
 - **Arte para capa de álbum:**
+![Capa de álbum para a música Viva La Vida da banda Coldplay](album_cover/viva%20la%20vida%20-%20Coldplay.png)
 
-Para visualizar mais exemplos de arte para capa de álbum geradas, você pode clicar [aqui]().
+Para visualizar mais exemplos de arte para capa de álbum geradas, você pode clicar [aqui](https://github.com/LeonardoMaioli/song_lyrics_ai_toolkit/tree/main/album_cover).
 
 
 
