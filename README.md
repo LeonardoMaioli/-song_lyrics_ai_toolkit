@@ -44,8 +44,7 @@ O código desenvolvido e as explicações detalhadas de cada etapa estão dispon
 
 ## _Funcionamento_
 
-Os resultados obtidos podem ser melhor explorados no código citado anteriormente. Na figura abaixo tem-se uma pequena amostra dos dados sintéticos obtidos para transações fraudulentas.
-![Dados Sintéticos para Transações Fraudulentas](images/synthetic_data_example.png)
+O
 
 ## _Exemplo de Resultado_
 
