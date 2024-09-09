@@ -10,7 +10,7 @@ Alunos:
 - <a href="#intro">Introdução</a>
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#codigo">Código</a>
-- <a href="#utilização">Utilização</a>
+- <a href="#utilizacao">Utilização</a>
 - <a href="#exemplo">Exemplo</a>
 
 ## _Introdução_
