@@ -11,7 +11,7 @@ Alunos:
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#codigo">Código</a>
 - <a href="#utilização">Utilização</a>
-- <a href="#exemplo">Exemplo de Resultado</a>
+- <a href="#exemplo">Exemplo</a>
 
 ## _Introdução_
 
@@ -48,34 +48,37 @@ O código desenvolvido e as explicações detalhadas de cada etapa estão dispon
 O código disponível no link da seção anterior, e consequentemente as tarefas disponíveis do toolkit, pode ser executado de duas maneiras. A primeira é de forma sequencial, executando módulo a módulo do notebook. Já a segunda maneira é utilizando o StreamLit, tornando a interação similar a uma conversa com um chatbot.
 
 - **Executando de forma sequencial:**
-Para a execução sequencial, basta seguir o passo a passo os módulos do notebook. Em determinado momento, o usuário deverá informar, em linguagem natural, qual o título e o artista da música que ele deseja utilizar para realizar as tarefas. Dessa forma, a letra da música será obtida. Seguindo o passo a passo, o usuário deve descrever qual a tarefa ele deseja executar sobre a letra da música. A tarefa pedida será identificada e executada, gerando o resultado pedido.
-
-Essa forma de execução acaba permitindo uma única tarefa por vez. Para realizar outra tarefa, o usuário deve voltar ao módulo do notebook em que ele descreve a tarefa que deseja executar.
-O código também mostra uma opção onde o usuário pode passar uma lista de prompts e consequentemente obter diferentes resultados em uma única vez.
+Para a execução sequencial, basta seguir o passo a passo os módulos do notebook. Em determinado momento, o usuário deverá informar, em linguagem natural, qual o título e o artista da música que ele deseja utilizar para realizar as tarefas. Dessa forma, a letra da música será obtida. Seguindo o passo a passo, o usuário deve descrever qual a tarefa ele deseja executar sobre a letra da música. A tarefa pedida será identificada e executada, gerando o resultado pedido. Essa forma de execução acaba permitindo uma única tarefa por vez. Para realizar outra tarefa, o usuário deve voltar ao módulo do notebook em que ele descreve a tarefa que deseja executar. O código também mostra uma opção onde o usuário pode passar uma lista de prompts e consequentemente obter diferentes resultados em uma única vez.
 
 - **Executando com o StreamLit**:
 Para a execução utilizando a ferramenta do Streamlit, o usuário precisa apenas executar os módulos após o tópico com nome _*Aplicação Streamlit*_, além de configurar as suas chaves dos modelos utilizados. Feito isso, o usuário pode acessar o link gerado e terá as intruções na tela para realizar as tarefas de forma mais interativa com um chatbot.
 
-## _Exemplo de Resultado_
+## _Exemplo_
 
 Para demonstrar um exemplo de resultado, seguem as saídas obtidas para a música **Viva La Vida** da banda **Coldplay** para cada uma das ferramentas. Note que algumas das saídas foram cortadas devido ao tamanho. Não perca tempo, teste você mesmo!
 
 - **Tradução**:
+  
   ![Tradução para português da letra da música Viva La Vida da banda Coldplay](images/traducao.png)
   
 - **Identificação das emoções:**
+  
   ![Identificação de emoções na letra da música Viva La Vida da banda Coldplay](images/emocoes.png)
   
 - **Identificação das palavras-chave:**
+  
   ![Identificação de palavras-chave da letra da música Viva La Vida da banda Coldplay](images/palavras_chave.png)
   
 - **Resumo:**
+  
   ![Resumo da letra da música Viva La Vida da banda Coldplay](images/resumo.png)
   
 - **Identificação do gênero:**
+  
   ![Gênero da música Viva La Vida da banda Coldplay](images/genero.png)
   
 - **Arte para capa de álbum:**
+  
   ![Capa de álbum para a música Viva La Vida da banda Coldplay](album_cover/viva%20la%20vida%20-%20Coldplay.png)
 
 Para visualizar mais exemplos de arte para capa de álbum geradas, você pode clicar [aqui](https://github.com/LeonardoMaioli/song_lyrics_ai_toolkit/tree/main/album_cover).
