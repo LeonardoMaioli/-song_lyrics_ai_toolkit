@@ -11,16 +11,16 @@ Alunos:
 - <a href="#intro">Introdução</a>
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#codigo">Código</a>
-- <a href="#funcionamento">Funcionamento</a>
+- <a href="#utilização">Utilização</a>
 - <a href="#exemplo">Exemplo de Resultado</a>
 
 ## _Introdução_
 
-**Song Lyrics AI Toolkit** é projeto desenvolvido por alunos da UFABC no decorrer da disciplina Processamento de Linguagem Natural (PLN) que oferece ferramentas baseadas em IA para análise, extração e geração de informações de letras de músicas. 
+**Song Lyrics AI Toolkit** é um projeto desenvolvido por alunos da UFABC no decorrer da disciplina Processamento de Linguagem Natural (PLN), que oferece ferramentas baseadas em IA para análise, extração e geração de informações de letras de músicas. Este projeto permite ao usuário informar, em linguagem natural, uma música de um artista e pedir que o programa execute algumas tarefas, dentre as implementadas.
 
 Utilizando técnicas de PLN e geração de imagens, o projeto **Song Lyrics AI Toolkit** permite realizar tarefas como:
 
-- Buscar letras de músicas pelo nome da música e cantor(a)/banda.
+- Buscar letras de músicas pelo nome da música e artista/banda.
 - Traduzir a letra de uma música do idioma original para um idioma alvo.
 - Identificar emoções existentes na letra da música.
 - Identificar as palavras-chave da letra da música.
@@ -34,31 +34,41 @@ Com foco na exploração criativa e analítica de letras de músicas, este toolk
 
 ## _Tecnologias utilizadas_
 
-A equipe utilizou a linguagem **Python** com o framework **LangChain** junto de modelos da **Groq* e *OpenAI** para o desenvolvimento do projeto. O modelo _*llama-3.1-70b-versatil*_ da Groq foi utilizado para quase todas as ferramentas com exceção para a ferramenta de geração de arte para capa de álbum inspirada na letra da música, na qual foi utilizado o modelo dall-e-3 da OpenaAI.
+A equipe utilizou a linguagem **Python** com o framework **LangChain** junto de modelos da **Groq** e **OpenAI** para o desenvolvimento do projeto. O modelo _*llama-3.1-70b-versatil*_ da Groq foi utilizado de forma gratuita para quase todas as ferramentas, com exceção para a ferramenta de geração de arte para capa de álbum inspirada na letra da música, na qual foi utilizado o modelo _*dall-e-3 da OpenaAI*_ com o custo aproximado de US$ 0,04 para cada imagem produzida.
 
-Para obtenção das letras das músicas a partir do nome da música e cantor(a)/banda foi utilizada a API lyrics.ovh, cuja documentação pode ser acessada [aqui](https://lyricsovh.docs.apiary.io/#reference)!
+Para obtenção das letras das músicas a partir do nome da música e artista/banda foi utilizada a API lyrics.ovh, cuja documentação pode ser acessada [aqui](https://lyricsovh.docs.apiary.io/#reference)!
+
+FALAR DO STREAMLIT AQUI
 
 ## _Código_
 
-O código desenvolvido e as explicações detalhadas de cada etapa estão disponíveis no formato de um notebook Python [aqui]()!
+O código desenvolvido e as explicações detalhadas de cada etapa estão disponíveis no formato de um notebook Python [aqui](https://colab.research.google.com/drive/1zufQVpVY_TEWwvLOMTKPj7yj6AAV_hZW?authuser=1#scrollTo=D7hJlilKM485)!
 
-## _Funcionamento_
+## _Utilização_
 
-O
+O código disponível no link da seção anterior, e consequentemente as tarefas disponíveis do toolkit, pode ser executado de duas maneiras. A primeira é de forma sequencial, executando módulo a módulo do notebook. Já a segunda maneira é utilizando o StreamLit.
+
+- **Executando de forma sequencial:**
+- **Executando com o StreamLit**:
 
 ## _Exemplo de Resultado_
 
-Para demonstrar um exemplo de resultado, segue as saídas obtidas para a música **Viva La Vida** da banda **Coldplay** para cada uma das ferramentas.
+Para demonstrar um exemplo de resultado, seguem as saídas obtidas para a música **Viva La Vida** da banda **Coldplay** para cada uma das ferramentas. Note que algumas das saídas foram cortadas devido ao tamanho. Não perca tempo, teste você mesmo!
 
 - **Tradução**:
+![Tradução para português da letra da música Viva La Vida da banda Coldplay](images/traducao.png)
   
 - **Identificação das emoções:**
+![Identificação de emoções na letra da música Viva La Vida da banda Coldplay](images/emocoes.png)
   
 - **Identificação das palavras-chave:**
+![Identificação de palavras-chave da letra da música Viva La Vida da banda Coldplay](images/palavras_chave.png)
   
 - **Resumo:**
+![Resumo da letra da música Viva La Vida da banda Coldplay](images/resumo.png)
   
 - **Identificação do gênero:**
+![Gênero da música Viva La Vida da banda Coldplay](images/genero.png)
   
 - **Arte para capa de álbum:**
 ![Capa de álbum para a música Viva La Vida da banda Coldplay](album_cover/viva%20la%20vida%20-%20Coldplay.png)
